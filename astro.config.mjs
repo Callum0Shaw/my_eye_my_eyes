@@ -15,10 +15,6 @@ export default defineConfig({
     feature: "storyblok/Feature",
     grid: "storyblok/Grid",
     teaser: "storyblok/Teaser",
-    },
-    apiOptions: {
-      // Choose your Storyblok space region
-      region: 'us' // optional,  or 'eu' (default)
     }
   })],
   output: "server",
