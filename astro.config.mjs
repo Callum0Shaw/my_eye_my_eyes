@@ -13,9 +13,9 @@ export default defineConfig({
     bridge: true,
     components: {
       page: "storyblok/Page",
-    feature: "storyblok/Feature",
-    grid: "storyblok/Grid",
-    teaser: "storyblok/Teaser",
+      feature: "storyblok/Feature",
+      grid: "storyblok/Grid",
+      teaser: "storyblok/Teaser",
     }
   })],
   output: "server",
